@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aperture</title>
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__inner">
+                <div class="header__inner__logo">
+                    <img src="img/logo.svg" alt="Logo" />
+                </div>
+                <nav class="header__inner__nav">
+                    <span class="header__inner__nav__span">Business areas</span>
+                    <a href="#" class="header__inner__nav__link"
+                        >Featured images</a
+                    >
+                    <a href="#" class="header__inner__nav__link">Gear cage</a>
+                    <a href="#" class="header__inner__nav__link">Contact</a>
+                    <button class="header__inner__nav__btn">
+                        Get template
+                    </button>
+                </nav>
+                <div class="header__inner__burger" id="burger" onclick="openMenu()"><span></span></div>
+                <div class="header__inner__menu _disabled" id="menu">
+                    <nav class="header__inner__menu__nav">
+                        <span class="header__inner__menu__nav__span"
+                            >Business areas</span
+                        >
+                        <a href="#" class="header__inner__menu__nav__link"
+                            >Featured images</a
+                        >
+                        <a href="#" class="header__inner__menu__nav__link"
+                            >Gear cage</a
+                        >
+                        <a href="#" class="header__inner__menu__nav__link"
+                            >Contact</a
+                        >
+                        <a href="#" class="header__inner__menu__nav__link">
+                            Get template
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <article class="main" id="main">
+            <section class="main__one section">
+                <div class="main__one__inner">
+                    <div class="main__one__inner__container">
+                        <span class="main__one__inner__container__text"
+                            >Photographer & Filmmaker</span
+                        >
+                        <span class="main__one__inner__container__title"
+                            >Aperture Studios</span
+                        >
+                        <p class="main__one__inner__container__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Suspendisse varius enim in eros elementum
+                            tristique. Duis cursus, mi quis viverra ornare, eros
+                            dolor interdum nulla, ut commodo diam libero vitae
+                            erat. Aenean faucibus nibh et justo cursus id rutrum
+                            lorem imperdiet. Nunc ut sem vitae risus tristique
+                            posuere.
+                        </p>
+                    </div>
+                    <div class="main__one__inner__footer _footer_container">
+                        <div class="main__one__inner__footer__inner">
+                            <div class="main__one__inner__footer__inner__items">
+                                <div
+                                    class="main__one__inner__footer__inner__items__img"
+                                    style="max-width: 16px"
+                                >
+                                    <img
+                                        src="img/footer-one-img1.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="main__one__inner__footer__inner__items__text"
+                                    >1/2000s</span
+                                >
+                            </div>
+                            <div class="main__one__inner__footer__inner__items">
+                                <div
+                                    class="main__one__inner__footer__inner__items__img"
+                                    style="max-width: 16px"
+                                >
+                                    <img
+                                        src="img/footer-one-img2.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="main__one__inner__footer__inner__items__text"
+                                    >f/11</span
+                                >
+                            </div>
+                            <div class="main__one__inner__footer__inner__items">
+                                <div
+                                    class="main__one__inner__footer__inner__items__img"
+                                    style="max-width: 32px"
+                                >
+                                    <img
+                                        src="img/footer-one-img3.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="main__one__inner__footer__inner__items__text"
+                                    >100</span
+                                >
+                            </div>
+                            <div class="main__one__inner__footer__inner__items">
+                                <div
+                                    class="main__one__inner__footer__inner__items__img"
+                                    style="max-width: 10px"
+                                >
+                                    <img
+                                        src="img/footer-one-img4.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="main__one__inner__footer__inner__items__text"
+                                    >Iceland</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section_can" id="one">
+                <div class="section_can__inner _main_section">
+                    <div class="section_can__inner__items">
+                        <span
+                            class="section_can__inner__items__title _title_section"
+                            >What we do.</span
+                        >
+                        <span
+                            class="section_can__inner__items__description _description_section"
+                            >The areas that we're specialized in.</span
+                        >
+                    </div>
+                </div>
+            </section>
+            <section class="section_can" id="two">
+                <div class="section_can__inner">
+                    <div class="section_can__inner__items">
+                        <span class="section_can__inner__items__title"
+                            >Product Photography</span
+                        >
+                        <p class="section_can__inner__items__description">
+                            Cras commodo consequat orci, in convallis risus
+                            egestas non. Nulla efficitur auctor hendrerit. Etiam
+                            ut orci varius, faucibus libero ac, cursus quam.
+                        </p>
+                        <button class="section_can__inner__items__btn">
+                            Read more
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="section_can" id="three">
+                <div class="section_can__inner">
+                    <div class="section_can__inner__items">
+                        <span class="section_can__inner__items__title"
+                            >Architecture Photography</span
+                        >
+                        <p class="section_can__inner__items__description">
+                            Aenean porta neque eget consequat fringilla.
+                            Vestibulum ultrices, orci nec egestas pharetra,
+                            ligula est semper enim, nec auctor sapien leo nec
+                            purus. Fusce tincidunt aliquet sapien, sit amet
+                            rhoncus leo imperdiet nec.
+                        </p>
+                        <button class="section_can__inner__items__btn">
+                            Read more
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="section_can" id="four">
+                <div class="section_can__inner">
+                    <div class="section_can__inner__items">
+                        <span class="section_can__inner__items__title"
+                            >Drone Photography</span
+                        >
+                        <p class="section_can__inner__items__description">
+                            Mauris euismod elit et nisi ultrices, ut faucibus
+                            orci tincidunt. Duis tristique sed lorem a
+                            vestibulum. Cras commodo consequat orci, in
+                            convallis risus egestas non. Nulla efficitur auctor
+                            hendrerit. Etiam ut orci varius, faucibus libero ac,
+                            cursus quam.
+                        </p>
+                        <button class="section_can__inner__items__btn">
+                            Read more
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="section_can" id="five">
+                <div class="section_can__inner">
+                    <div class="section_can__inner__items">
+                        <span class="section_can__inner__items__title"
+                            >Wildlife Photography</span
+                        >
+                        <p class="section_can__inner__items__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nullam scelerisque aliquam odio et faucibus.
+                            Nulla rhoncus feugiat eros quis consectetur. Morbi
+                            neque ex, condimentum dapibus congue et, vulputate
+                            ut ligula. Vestibulum sit amet urna turpis.
+                        </p>
+                        <button class="section_can__inner__items__btn">
+                            Read more
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="section_sunset">
+                <div class="section_sunset__inner">
+                    <div class="section_sunset__inner__container">
+                        <span class="section_sunset__inner__container__title"
+                            >Sunset at Mount Fuji</span
+                        >
+                        <p
+                            class="section_sunset__inner__container__description"
+                        >
+                            Duis tristique sed lorem a vestibulum. Cras commodo
+                            consequat orci, in convallis risus egestas non.
+                        </p>
+                    </div>
+                    <div
+                        class="section_sunset__inner__footer _footer_container"
+                    >
+                        <div class="section_sunset__inner__footer__inner">
+                            <div
+                                class="section_sunset__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_sunset__inner__footer__inner__items__img"
+                                    style="max-width: 16px"
+                                >
+                                    <img
+                                        src="img/footer-one-img1.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_sunset__inner__footer__inner__items__text"
+                                    >1/"</span
+                                >
+                            </div>
+                            <div
+                                class="section_sunset__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_sunset__inner__footer__inner__items__img"
+                                    style="max-width: 16px"
+                                >
+                                    <img
+                                        src="img/footer-one-img2.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_sunset__inner__footer__inner__items__text"
+                                    >f/16</span
+                                >
+                            </div>
+                            <div
+                                class="section_sunset__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_sunset__inner__footer__inner__items__img"
+                                    style="max-width: 32px"
+                                >
+                                    <img
+                                        src="img/footer-one-img3.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_sunset__inner__footer__inner__items__text"
+                                    >400</span
+                                >
+                            </div>
+                            <div
+                                class="section_sunset__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_sunset__inner__footer__inner__items__img"
+                                    style="max-width: 10px"
+                                >
+                                    <img
+                                        src="img/footer-one-img4.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_sunset__inner__footer__inner__items__text"
+                                    >Japan</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section_tools">
+                <div class="section_tools__inner">
+                    <div class="section_tools__inner__container">
+                        <div class="section_tools__inner__container__inner">
+                            <span
+                                class="section_tools__inner__container__inner__text"
+                                >The Gear cage</span
+                            >
+                            <span
+                                class="section_tools__inner__container__inner__title"
+                                >The tools that we use.</span
+                            >
+                            <p
+                                class="section_tools__inner__container__inner__description"
+                            >
+                                The say that "no place is boring if you've had a
+                                good night's sleep and have a pocket full of
+                                unexposed film". While we don't shoot (a lot) of
+                                film these days — these are the tools that we
+                                actually use everyday to capture the amazing
+                                things around us.
+                            </p>
+                            <button
+                                class="section_tools__inner__container__inner__btn"
+                            >
+                                Check it out
+                            </button>
+                        </div>
+                    </div>
+                    <div class="section_tools__inner__container _two">
+                        <div
+                            class="section_tools__inner__container__footer _footer_container"
+                        >
+                            <div
+                                class="section_tools__inner__container__footer__inner"
+                            >
+                                <div
+                                    class="section_tools__inner__container__footer__inner__items"
+                                >
+                                    <div
+                                        class="section_tools__inner__container__footer__inner__items__img"
+                                        style="max-width: 16px"
+                                    >
+                                        <img
+                                            src="img/footer-one-img1.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <span
+                                        class="section_tools__inner__container__footer__inner__items__text"
+                                        >0,8"</span
+                                    >
+                                </div>
+                                <div
+                                    class="section_tools__inner__container__footer__inner__items"
+                                >
+                                    <div
+                                        class="section_tools__inner__container__footer__inner__items__img"
+                                        style="max-width: 16px"
+                                    >
+                                        <img
+                                            src="img/footer-one-img2.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <span
+                                        class="section_tools__inner__container__footer__inner__items__text"
+                                        >f/5,6</span
+                                    >
+                                </div>
+                                <div
+                                    class="section_tools__inner__container__footer__inner__items"
+                                >
+                                    <div
+                                        class="section_tools__inner__container__footer__inner__items__img"
+                                        style="max-width: 32px"
+                                    >
+                                        <img
+                                            src="img/footer-one-img3.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <span
+                                        class="section_tools__inner__container__footer__inner__items__text"
+                                        >100</span
+                                    >
+                                </div>
+                                <div
+                                    class="section_tools__inner__container__footer__inner__items"
+                                >
+                                    <div
+                                        class="section_tools__inner__container__footer__inner__items__img"
+                                        style="max-width: 10px"
+                                    >
+                                        <img
+                                            src="img/footer-one-img4.svg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <span
+                                        class="section_tools__inner__container__footer__inner__items__text"
+                                        >Sweden</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section_leafs">
+                <div class="section_leafs__inner">
+                    <div class="section_leafs__inner__container">
+                        <span class="section_leafs__inner__container__title"
+                            >Monstera Leafs</span
+                        >
+                        <p class="section_leafs__inner__container__description">
+                            Vestibulum sit amet urna turpis. Mauris euismod elit
+                            et nisi ultrices, ut faucibus orci tincidunt.
+                        </p>
+                    </div>
+                    <div class="section_leafs__inner__footer _footer_container">
+                        <div class="section_leafs__inner__footer__inner">
+                            <div
+                                class="section_leafs__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_leafs__inner__footer__inner__items__img"
+                                    style="max-width: 16px"
+                                >
+                                    <img
+                                        src="img/footer-one-img1.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_leafs__inner__footer__inner__items__text"
+                                    >1/400s"</span
+                                >
+                            </div>
+                            <div
+                                class="section_leafs__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_leafs__inner__footer__inner__items__img"
+                                    style="max-width: 16px"
+                                >
+                                    <img
+                                        src="img/footer-one-img2.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_leafs__inner__footer__inner__items__text"
+                                    >f/3,5</span
+                                >
+                            </div>
+                            <div
+                                class="section_leafs__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_leafs__inner__footer__inner__items__img"
+                                    style="max-width: 32px"
+                                >
+                                    <img
+                                        src="img/footer-one-img3.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_leafs__inner__footer__inner__items__text"
+                                    >100</span
+                                >
+                            </div>
+                            <div
+                                class="section_leafs__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_leafs__inner__footer__inner__items__img"
+                                    style="max-width: 10px"
+                                >
+                                    <img
+                                        src="img/footer-one-img4.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_leafs__inner__footer__inner__items__text"
+                                    >Costa Rica</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section_clients">
+                <div class="section_clients__inner">
+                    <span class="section_clients__inner__title"
+                        >Past clients</span
+                    >
+                    <span class="section_clients__inner__description"
+                        >Trusted by your favourite companies</span
+                    >
+                    <div class="section_clients__inner__container">
+                        <div class="section_clients__inner__container__img">
+                            <img src="img/clients-one.svg" alt="logo" />
+                        </div>
+                        <div class="section_clients__inner__container__img">
+                            <img src="img/clients-two.svg" alt="logo" />
+                        </div>
+                        <div class="section_clients__inner__container__img">
+                            <img src="img/clients-three.svg" alt="logo" />
+                        </div>
+                        <div class="section_clients__inner__container__img">
+                            <img src="img/clients-four.svg" alt="logo" />
+                        </div>
+                        <div class="section_clients__inner__container__img">
+                            <img src="img/clients-five.svg" alt="logo" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section_star_fall">
+                <div class="section_star_fall__inner">
+                    <div class="section_star_fall__inner__container">
+                        <span class="section_star_fall__inner__container__title"
+                            >Star fall in the Himalayas</span
+                        >
+                        <p
+                            class="section_star_fall__inner__container__description"
+                        >
+                            Nulla rhoncus feugiat eros quis consectetur. Morbi
+                            neque ex, condimentum dapibus congue et, vulputate
+                            ut ligula.
+                        </p>
+                    </div>
+                    <div
+                        class="section_star_fall__inner__footer _footer_container"
+                    >
+                        <div class="section_star_fall__inner__footer__inner">
+                            <div
+                                class="section_star_fall__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_star_fall__inner__footer__inner__items__img"
+                                    style="max-width: 16px"
+                                >
+                                    <img
+                                        src="img/footer-one-img1.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_star_fall__inner__footer__inner__items__text"
+                                    >6"</span
+                                >
+                            </div>
+                            <div
+                                class="section_star_fall__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_star_fall__inner__footer__inner__items__img"
+                                    style="max-width: 16px"
+                                >
+                                    <img
+                                        src="img/footer-one-img2.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_star_fall__inner__footer__inner__items__text"
+                                    >f/11</span
+                                >
+                            </div>
+                            <div
+                                class="section_star_fall__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_star_fall__inner__footer__inner__items__img"
+                                    style="max-width: 32px"
+                                >
+                                    <img
+                                        src="img/footer-one-img3.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_star_fall__inner__footer__inner__items__text"
+                                    >800</span
+                                >
+                            </div>
+                            <div
+                                class="section_star_fall__inner__footer__inner__items"
+                            >
+                                <div
+                                    class="section_star_fall__inner__footer__inner__items__img"
+                                    style="max-width: 10px"
+                                >
+                                    <img
+                                        src="img/footer-one-img4.svg"
+                                        alt="img"
+                                    />
+                                </div>
+                                <span
+                                    class="section_star_fall__inner__footer__inner__items__text"
+                                    >Nepal</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section_help">
+                <div class="section_help__inner">
+                    <span class="section_help__inner__title"
+                        >Need help with photography or videography?</span
+                    >
+                    <span class="section_help__inner__description"
+                        >We're here for you!</span
+                    >
+                    <button class="section_help__inner__btn">
+                        Get in touch
+                    </button>
+                </div>
+            </section>
+            <section class="section_footer">
+                <div class="section_footer__inner">
+                    <div class="section_footer__inner__one_container">
+                        <div class="section_footer__inner__one_container__logo">
+                            <div
+                                class="section_footer__inner__one_container__logo__img"
+                            >
+                                <img src="img/logo.svg" alt="logo" />
+                            </div>
+                            <span
+                                class="section_footer__inner__one_container__logo__description"
+                                >Photographers & videographers capturing the
+                                world around us.</span
+                            >
+                        </div>
+                        <div
+                            class="section_footer__inner__one_container__links"
+                        >
+                            <div
+                                class="section_footer__inner__one_container__links__col"
+                            >
+                                <span
+                                    class="section_footer__inner__one_container__links__col__title"
+                                    >Business areas</span
+                                >
+                                <a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Product Photography</a
+                                ><a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Architecture Photography</a
+                                ><a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Drone Photography</a
+                                ><a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Wildlife Photography</a
+                                >
+                            </div>
+                            <div
+                                class="section_footer__inner__one_container__links__col"
+                            >
+                                <span
+                                    class="section_footer__inner__one_container__links__col__title"
+                                    >Pages</span
+                                >
+                                <a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Gear cage</a
+                                ><a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Featured images</a
+                                ><a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Contact</a
+                                ><a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Style guide</a
+                                ><a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Instructions</a
+                                ><a
+                                    href="#"
+                                    class="section_footer__inner__one_container__links__col__link"
+                                    >Changelog</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section_footer__inner__two_container">
+                        <div
+                            class="section_footer__inner__two_container__subscribe"
+                        >
+                            <span
+                                class="section_footer__inner__two_container__subscribe__title"
+                                >Subscribe to our newsletter</span
+                            >
+                            <span
+                                class="section_footer__inner__two_container__subscribe__description"
+                                >Read about all the things we do.</span
+                            >
+                        </div>
+                        <form
+                            action="#"
+                            method="post"
+                            class="section_footer__inner__two_container__form"
+                        >
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="E-mail"
+                            />
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="section_footer__inner__three_container">
+                        <span
+                            class="section_footer__inner__three_container__text"
+                            >© Aperture Photography, Inc. All rights reserved.
+                            Licensing.</span
+                        >
+                        <div
+                            class="section_footer__inner__three_container__icons"
+                        >
+                            <a
+                                href="#"
+                                class="section_footer__inner__three_container__icons__items"
+                            >
+                                <img src="img/twitter.svg" alt="twitter" />
+                            </a>
+                            <a
+                                href="#"
+                                class="section_footer__inner__three_container__icons__items"
+                            >
+                                <img src="img/instagram.svg" alt="instagram" />
+                            </a>
+                            <a
+                                href="#"
+                                class="section_footer__inner__three_container__icons__items"
+                            >
+                                <img src="img/facebook.svg" alt="facebook" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
