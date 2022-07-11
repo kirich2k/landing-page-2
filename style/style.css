@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Poppins-Light";
-  src: local("Poppins-Light"), local("PoppinsLight"), url(/fonts/Poppins-Light.ttf);
+  src: local("Poppins-Light"), local("PoppinsLight"), url(../fonts/Poppins-Light.ttf);
 }
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins-Regular"), local("PoppinsRegular"), url(/fonts/Poppins-Regular.ttf);
+  src: local("Poppins-Regular"), local("PoppinsRegular"), url(../fonts/Poppins-Regular.ttf);
 }
 /*----Обнуление----*/
 *,
@@ -338,7 +338,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-image: url(/img/sunset.jpg);
+  background-image: url(../img/sunset.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -426,7 +426,7 @@ body {
 .main .section_tools__inner__container._two {
   position: relative;
   padding: 30px 30px 30px 0px;
-  background-image: url(/img/tools.jpg);
+  background-image: url(../img/tools.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,7 +502,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-image: url(/img/leafs.jpg);
+  background-image: url(../img/leafs.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -619,7 +619,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-image: url(/img/star-fall.jpg);
+  background-image: url(../img/star-fall.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -910,16 +910,16 @@ body {
   background-color: black;
 }
 .main #two {
-  background-image: url(/img/two-items-1.jpg);
+  background-image: url(../img/two-items-1.jpg);
 }
 .main #three {
-  background-image: url(/img/two-items-2.jpg);
+  background-image: url(../img/two-items-2.jpg);
 }
 .main #four {
-  background-image: url(/img/two-items-3.jpg);
+  background-image: url(../img/two-items-3.jpg);
 }
 .main #five {
-  background-image: url(/img/two-items-4.jpg);
+  background-image: url(../img/two-items-4.jpg);
 }
 
 ._footer_container {
