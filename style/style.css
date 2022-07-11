@@ -208,7 +208,7 @@ body {
 .main__one {
   width: 100%;
   height: calc(100vh - 90px);
-  background-image: url(/img/bg-one.jpg);
+  background-image: url(./img/bg-one.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
