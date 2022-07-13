@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Poppins-Light";
-  src: local("Poppins-Light"), local("PoppinsLight"), url(/fonts/Poppins-Light.ttf);
+  src: local("Poppins-Light"), local("PoppinsLight"), url(../fonts/Poppins-Light.ttf);
 }
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins-Regular"), local("PoppinsRegular"), url(/fonts/Poppins-Regular.ttf);
+  src: local("Poppins-Regular"), local("PoppinsRegular"), url(../fonts/Poppins-Regular.ttf);
 }
 /*----Обнуление----*/
 *,
@@ -370,7 +370,7 @@ body {
 }
 
 .one {
-  background-image: url(/img/bg-one.jpg);
+  background-image: url(../img/bg-one.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -417,16 +417,16 @@ body {
   background-size: cover;
 }
 .can:nth-child(3) {
-  background-image: url(/img/two-items-1.jpg);
+  background-image: url(../img/two-items-1.jpg);
 }
 .can:nth-child(4) {
-  background-image: url(/img/two-items-2.jpg);
+  background-image: url(../img/two-items-2.jpg);
 }
 .can:nth-child(5) {
-  background-image: url(/img/two-items-3.jpg);
+  background-image: url(../img/two-items-3.jpg);
 }
 .can:nth-child(6) {
-  background-image: url(/img/two-items-4.jpg);
+  background-image: url(../img/two-items-4.jpg);
 }
 .can__inner {
   width: 100%;
@@ -486,13 +486,13 @@ body {
   background-size: cover;
 }
 .long-section:nth-child(7) {
-  background-image: url(/img/sunset.jpg);
+  background-image: url(../img/sunset.jpg);
 }
 .long-section:nth-child(9) {
-  background-image: url(/img/leafs.jpg);
+  background-image: url(../img/leafs.jpg);
 }
 .long-section:nth-child(11) {
-  background-image: url(/img/star-fall.jpg);
+  background-image: url(../img/star-fall.jpg);
 }
 .long-section__inner {
   position: relative;
@@ -546,7 +546,7 @@ body {
 .tools__container.-two {
   position: relative;
   padding: 30px 30px 30px 0px;
-  background-image: url(/img/tools.jpg);
+  background-image: url(../img/tools.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
