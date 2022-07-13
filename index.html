@@ -10,36 +10,34 @@
     <body>
         <header class="header">
             <div class="header__inner">
-                <div class="header__inner__logo">
+                <div class="header__logo logo">
                     <img src="img/logo.svg" alt="Logo" />
                 </div>
-                <nav class="header__inner__nav">
-                    <span class="header__inner__nav__span">Business areas</span>
-                    <a href="#" class="header__inner__nav__link"
-                        >Featured images</a
-                    >
-                    <a href="#" class="header__inner__nav__link">Gear cage</a>
-                    <a href="#" class="header__inner__nav__link">Contact</a>
-                    <button class="header__inner__nav__btn">
-                        Get template
-                    </button>
+                <nav class="header__nav nav">
+                    <span class="nav__span">Business areas</span>
+                    <div class="nav__container">
+                        <a href="#" class="nav__link">Featured images</a>
+                        <a href="#" class="nav__link">Gear cage</a>
+                        <a href="#" class="nav__link">Contact</a>
+                        <button class="nav__btn btn">Get template</button>
+                    </div>
                 </nav>
-                <div class="header__inner__burger" id="burger" onclick="openMenu()"><span></span></div>
-                <div class="header__inner__menu _disabled" id="menu">
-                    <nav class="header__inner__menu__nav">
-                        <span class="header__inner__menu__nav__span"
+                <div class="header__burger burger" id="burger" onclick="openMenu()"><span></span></div>
+                <div class="header__menu menu -disabled" id="menu">
+                    <nav class="menu__nav">
+                        <span class="menu__span"
                             >Business areas</span
                         >
-                        <a href="#" class="header__inner__menu__nav__link"
+                        <a href="#" class="menu__link"
                             >Featured images</a
                         >
-                        <a href="#" class="header__inner__menu__nav__link"
+                        <a href="#" class="menu__link"
                             >Gear cage</a
                         >
-                        <a href="#" class="header__inner__menu__nav__link"
+                        <a href="#" class="menu__link"
                             >Contact</a
                         >
-                        <a href="#" class="header__inner__menu__nav__link">
+                        <a href="#" class="menu__link">
                             Get template
                         </a>
                     </nav>
@@ -47,16 +45,16 @@
             </div>
         </header>
         <article class="main" id="main">
-            <section class="main__one section">
-                <div class="main__one__inner">
-                    <div class="main__one__inner__container">
-                        <span class="main__one__inner__container__text"
+            <section class="main__one one">
+                <div class="one__inner">
+                    <div class="one__container">
+                        <span class="one__text"
                             >Photographer & Filmmaker</span
                         >
-                        <span class="main__one__inner__container__title"
+                        <span class="one__title"
                             >Aperture Studios</span
                         >
-                        <p class="main__one__inner__container__description">
+                        <p class="one__description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Suspendisse varius enim in eros elementum
                             tristique. Duis cursus, mi quis viverra ornare, eros
@@ -66,11 +64,11 @@
                             posuere.
                         </p>
                     </div>
-                    <div class="main__one__inner__footer _footer_container">
-                        <div class="main__one__inner__footer__inner">
-                            <div class="main__one__inner__footer__inner__items">
+                    <div class="one__footer footer">
+                        <div class="footer__inner">
+                            <div class="footer__items">
                                 <div
-                                    class="main__one__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 16px"
                                 >
                                     <img
@@ -79,13 +77,13 @@
                                     />
                                 </div>
                                 <span
-                                    class="main__one__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >1/2000s</span
                                 >
                             </div>
-                            <div class="main__one__inner__footer__inner__items">
+                            <div class="footer__items">
                                 <div
-                                    class="main__one__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 16px"
                                 >
                                     <img
@@ -94,13 +92,13 @@
                                     />
                                 </div>
                                 <span
-                                    class="main__one__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >f/11</span
                                 >
                             </div>
-                            <div class="main__one__inner__footer__inner__items">
+                            <div class="footer__items">
                                 <div
-                                    class="main__one__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 32px"
                                 >
                                     <img
@@ -109,13 +107,13 @@
                                     />
                                 </div>
                                 <span
-                                    class="main__one__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >100</span
                                 >
                             </div>
-                            <div class="main__one__inner__footer__inner__items">
+                            <div class="footer__items">
                                 <div
-                                    class="main__one__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 10px"
                                 >
                                     <img
@@ -124,7 +122,7 @@
                                     />
                                 </div>
                                 <span
-                                    class="main__one__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >Iceland</span
                                 >
                             </div>
@@ -132,63 +130,63 @@
                     </div>
                 </div>
             </section>
-            <section class="section_can" id="one">
-                <div class="section_can__inner _main_section">
-                    <div class="section_can__inner__items">
+            <section class="main__two can">
+                <div class="can__inner -center">
+                    <div class="can__items">
                         <span
-                            class="section_can__inner__items__title _title_section"
+                            class="can__title -bigger"
                             >What we do.</span
                         >
                         <span
-                            class="section_can__inner__items__description _description_section"
+                            class="can__description -bigger"
                             >The areas that we're specialized in.</span
                         >
                     </div>
                 </div>
             </section>
-            <section class="section_can" id="two">
-                <div class="section_can__inner">
-                    <div class="section_can__inner__items">
-                        <span class="section_can__inner__items__title"
+            <section class="main__three can">
+                <div class="can__inner">
+                    <div class="can__items">
+                        <span class="can__title"
                             >Product Photography</span
                         >
-                        <p class="section_can__inner__items__description">
+                        <p class="can__description">
                             Cras commodo consequat orci, in convallis risus
                             egestas non. Nulla efficitur auctor hendrerit. Etiam
                             ut orci varius, faucibus libero ac, cursus quam.
                         </p>
-                        <button class="section_can__inner__items__btn">
+                        <button class="can__btn btn">
                             Read more
                         </button>
                     </div>
                 </div>
             </section>
-            <section class="section_can" id="three">
-                <div class="section_can__inner">
-                    <div class="section_can__inner__items">
-                        <span class="section_can__inner__items__title"
+            <section class="main__four can">
+                <div class="can__inner">
+                    <div class="can__items">
+                        <span class="can__title"
                             >Architecture Photography</span
                         >
-                        <p class="section_can__inner__items__description">
+                        <p class="can__description">
                             Aenean porta neque eget consequat fringilla.
                             Vestibulum ultrices, orci nec egestas pharetra,
                             ligula est semper enim, nec auctor sapien leo nec
                             purus. Fusce tincidunt aliquet sapien, sit amet
                             rhoncus leo imperdiet nec.
                         </p>
-                        <button class="section_can__inner__items__btn">
+                        <button class="can__btn btn">
                             Read more
                         </button>
                     </div>
                 </div>
             </section>
-            <section class="section_can" id="four">
-                <div class="section_can__inner">
-                    <div class="section_can__inner__items">
-                        <span class="section_can__inner__items__title"
+            <section class="main__five can">
+                <div class="can__inner">
+                    <div class="can__items">
+                        <span class="can__title"
                             >Drone Photography</span
                         >
-                        <p class="section_can__inner__items__description">
+                        <p class="can__description">
                             Mauris euismod elit et nisi ultrices, ut faucibus
                             orci tincidunt. Duis tristique sed lorem a
                             vestibulum. Cras commodo consequat orci, in
@@ -196,53 +194,53 @@
                             hendrerit. Etiam ut orci varius, faucibus libero ac,
                             cursus quam.
                         </p>
-                        <button class="section_can__inner__items__btn">
+                        <button class="can__btn btn">
                             Read more
                         </button>
                     </div>
                 </div>
             </section>
-            <section class="section_can" id="five">
-                <div class="section_can__inner">
-                    <div class="section_can__inner__items">
-                        <span class="section_can__inner__items__title"
+            <section class="main__six can">
+                <div class="can__inner">
+                    <div class="can__items">
+                        <span class="can__title"
                             >Wildlife Photography</span
                         >
-                        <p class="section_can__inner__items__description">
+                        <p class="can__description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nullam scelerisque aliquam odio et faucibus.
                             Nulla rhoncus feugiat eros quis consectetur. Morbi
                             neque ex, condimentum dapibus congue et, vulputate
                             ut ligula. Vestibulum sit amet urna turpis.
                         </p>
-                        <button class="section_can__inner__items__btn">
+                        <button class="can__btn btn">
                             Read more
                         </button>
                     </div>
                 </div>
             </section>
-            <section class="section_sunset">
-                <div class="section_sunset__inner">
-                    <div class="section_sunset__inner__container">
-                        <span class="section_sunset__inner__container__title"
+            <section class="main__seven long-section">
+                <div class="long-section__inner">
+                    <div class="long-section__container">
+                        <span class="long-section__title"
                             >Sunset at Mount Fuji</span
                         >
                         <p
-                            class="section_sunset__inner__container__description"
+                            class="long-section__description"
                         >
                             Duis tristique sed lorem a vestibulum. Cras commodo
                             consequat orci, in convallis risus egestas non.
                         </p>
                     </div>
                     <div
-                        class="section_sunset__inner__footer _footer_container"
+                        class="long-section__footer footer"
                     >
-                        <div class="section_sunset__inner__footer__inner">
+                        <div class="footer__inner">
                             <div
-                                class="section_sunset__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_sunset__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 16px"
                                 >
                                     <img
@@ -251,15 +249,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_sunset__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >1/"</span
                                 >
                             </div>
                             <div
-                                class="section_sunset__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_sunset__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 16px"
                                 >
                                     <img
@@ -268,15 +266,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_sunset__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >f/16</span
                                 >
                             </div>
                             <div
-                                class="section_sunset__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_sunset__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 32px"
                                 >
                                     <img
@@ -285,15 +283,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_sunset__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >400</span
                                 >
                             </div>
                             <div
-                                class="section_sunset__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_sunset__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 10px"
                                 >
                                     <img
@@ -302,7 +300,7 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_sunset__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >Japan</span
                                 >
                             </div>
@@ -310,20 +308,20 @@
                     </div>
                 </div>
             </section>
-            <section class="section_tools">
-                <div class="section_tools__inner">
-                    <div class="section_tools__inner__container">
-                        <div class="section_tools__inner__container__inner">
+            <section class="main__eight tools">
+                <div class="tools__inner">
+                    <div class="tools__container container-main">
+                        <div class="container-main__inner">
                             <span
-                                class="section_tools__inner__container__inner__text"
+                                class="container-main__text"
                                 >The Gear cage</span
                             >
                             <span
-                                class="section_tools__inner__container__inner__title"
+                                class="container-main__title"
                                 >The tools that we use.</span
                             >
                             <p
-                                class="section_tools__inner__container__inner__description"
+                                class="container-main__description"
                             >
                                 The say that "no place is boring if you've had a
                                 good night's sleep and have a pocket full of
@@ -333,24 +331,24 @@
                                 things around us.
                             </p>
                             <button
-                                class="section_tools__inner__container__inner__btn"
+                                class="container-main__btn btn"
                             >
                                 Check it out
                             </button>
                         </div>
                     </div>
-                    <div class="section_tools__inner__container _two">
+                    <div class="tools__container -two">
                         <div
-                            class="section_tools__inner__container__footer _footer_container"
+                            class="tools__footer footer"
                         >
                             <div
-                                class="section_tools__inner__container__footer__inner"
+                                class="footer__inner"
                             >
                                 <div
-                                    class="section_tools__inner__container__footer__inner__items"
+                                    class="footer__items"
                                 >
                                     <div
-                                        class="section_tools__inner__container__footer__inner__items__img"
+                                        class="footer__img"
                                         style="max-width: 16px"
                                     >
                                         <img
@@ -359,15 +357,15 @@
                                         />
                                     </div>
                                     <span
-                                        class="section_tools__inner__container__footer__inner__items__text"
+                                        class="footer__text"
                                         >0,8"</span
                                     >
                                 </div>
                                 <div
-                                    class="section_tools__inner__container__footer__inner__items"
+                                    class="footer__items"
                                 >
                                     <div
-                                        class="section_tools__inner__container__footer__inner__items__img"
+                                        class="footer__img"
                                         style="max-width: 16px"
                                     >
                                         <img
@@ -376,15 +374,15 @@
                                         />
                                     </div>
                                     <span
-                                        class="section_tools__inner__container__footer__inner__items__text"
+                                        class="footer__text"
                                         >f/5,6</span
                                     >
                                 </div>
                                 <div
-                                    class="section_tools__inner__container__footer__inner__items"
+                                    class="footer__items"
                                 >
                                     <div
-                                        class="section_tools__inner__container__footer__inner__items__img"
+                                        class="footer__img"
                                         style="max-width: 32px"
                                     >
                                         <img
@@ -393,15 +391,15 @@
                                         />
                                     </div>
                                     <span
-                                        class="section_tools__inner__container__footer__inner__items__text"
+                                        class="footer__text"
                                         >100</span
                                     >
                                 </div>
                                 <div
-                                    class="section_tools__inner__container__footer__inner__items"
+                                    class="footer__items"
                                 >
                                     <div
-                                        class="section_tools__inner__container__footer__inner__items__img"
+                                        class="footer__img"
                                         style="max-width: 10px"
                                     >
                                         <img
@@ -410,7 +408,7 @@
                                         />
                                     </div>
                                     <span
-                                        class="section_tools__inner__container__footer__inner__items__text"
+                                        class="footer__text"
                                         >Sweden</span
                                     >
                                 </div>
@@ -419,24 +417,24 @@
                     </div>
                 </div>
             </section>
-            <section class="section_leafs">
-                <div class="section_leafs__inner">
-                    <div class="section_leafs__inner__container">
-                        <span class="section_leafs__inner__container__title"
+            <section class="main__nine long-section">
+                <div class="long-section__inner">
+                    <div class="long-section__container">
+                        <span class="long-section__title"
                             >Monstera Leafs</span
                         >
-                        <p class="section_leafs__inner__container__description">
+                        <p class="long-section__description">
                             Vestibulum sit amet urna turpis. Mauris euismod elit
                             et nisi ultrices, ut faucibus orci tincidunt.
                         </p>
                     </div>
-                    <div class="section_leafs__inner__footer _footer_container">
-                        <div class="section_leafs__inner__footer__inner">
+                    <div class="long-section__footer footer">
+                        <div class="footer__inner">
                             <div
-                                class="section_leafs__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_leafs__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 16px"
                                 >
                                     <img
@@ -445,15 +443,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_leafs__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >1/400s"</span
                                 >
                             </div>
                             <div
-                                class="section_leafs__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_leafs__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 16px"
                                 >
                                     <img
@@ -462,15 +460,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_leafs__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >f/3,5</span
                                 >
                             </div>
                             <div
-                                class="section_leafs__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_leafs__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 32px"
                                 >
                                     <img
@@ -479,15 +477,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_leafs__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >100</span
                                 >
                             </div>
                             <div
-                                class="section_leafs__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_leafs__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 10px"
                                 >
                                     <img
@@ -496,7 +494,7 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_leafs__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >Costa Rica</span
                                 >
                             </div>
@@ -504,41 +502,41 @@
                     </div>
                 </div>
             </section>
-            <section class="section_clients">
-                <div class="section_clients__inner">
-                    <span class="section_clients__inner__title"
+            <section class="main__ten clients">
+                <div class="clients__inner">
+                    <span class="clients__title"
                         >Past clients</span
                     >
-                    <span class="section_clients__inner__description"
+                    <span class="clients__description"
                         >Trusted by your favourite companies</span
                     >
-                    <div class="section_clients__inner__container">
-                        <div class="section_clients__inner__container__img">
+                    <div class="clients__container">
+                        <div class="clients__img">
                             <img src="img/clients-one.svg" alt="logo" />
                         </div>
-                        <div class="section_clients__inner__container__img">
+                        <div class="clients__img">
                             <img src="img/clients-two.svg" alt="logo" />
                         </div>
-                        <div class="section_clients__inner__container__img">
+                        <div class="clients__img">
                             <img src="img/clients-three.svg" alt="logo" />
                         </div>
-                        <div class="section_clients__inner__container__img">
+                        <div class="clients__img">
                             <img src="img/clients-four.svg" alt="logo" />
                         </div>
-                        <div class="section_clients__inner__container__img">
+                        <div class="clients__img">
                             <img src="img/clients-five.svg" alt="logo" />
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="section_star_fall">
-                <div class="section_star_fall__inner">
-                    <div class="section_star_fall__inner__container">
-                        <span class="section_star_fall__inner__container__title"
+            <section class="main__eleven long-section">
+                <div class="long-section__inner">
+                    <div class="long-section__container">
+                        <span class="long-section__title"
                             >Star fall in the Himalayas</span
                         >
                         <p
-                            class="section_star_fall__inner__container__description"
+                            class="long-section__description"
                         >
                             Nulla rhoncus feugiat eros quis consectetur. Morbi
                             neque ex, condimentum dapibus congue et, vulputate
@@ -546,14 +544,14 @@
                         </p>
                     </div>
                     <div
-                        class="section_star_fall__inner__footer _footer_container"
+                        class="long-section__footer footer"
                     >
-                        <div class="section_star_fall__inner__footer__inner">
+                        <div class="footer__inner">
                             <div
-                                class="section_star_fall__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_star_fall__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 16px"
                                 >
                                     <img
@@ -562,15 +560,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_star_fall__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >6"</span
                                 >
                             </div>
                             <div
-                                class="section_star_fall__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_star_fall__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 16px"
                                 >
                                     <img
@@ -579,15 +577,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_star_fall__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >f/11</span
                                 >
                             </div>
                             <div
-                                class="section_star_fall__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_star_fall__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 32px"
                                 >
                                     <img
@@ -596,15 +594,15 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_star_fall__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >800</span
                                 >
                             </div>
                             <div
-                                class="section_star_fall__inner__footer__inner__items"
+                                class="footer__items"
                             >
                                 <div
-                                    class="section_star_fall__inner__footer__inner__items__img"
+                                    class="footer__img"
                                     style="max-width: 10px"
                                 >
                                     <img
@@ -613,7 +611,7 @@
                                     />
                                 </div>
                                 <span
-                                    class="section_star_fall__inner__footer__inner__items__text"
+                                    class="footer__text"
                                     >Nepal</span
                                 >
                             </div>
@@ -621,114 +619,114 @@
                     </div>
                 </div>
             </section>
-            <section class="section_help">
-                <div class="section_help__inner">
-                    <span class="section_help__inner__title"
+            <section class="main__twelve help">
+                <div class="help__inner">
+                    <span class="help__title"
                         >Need help with photography or videography?</span
                     >
-                    <span class="section_help__inner__description"
+                    <span class="help__description"
                         >We're here for you!</span
                     >
-                    <button class="section_help__inner__btn">
+                    <button class="help__btn btn">
                         Get in touch
                     </button>
                 </div>
             </section>
-            <section class="section_footer">
-                <div class="section_footer__inner">
-                    <div class="section_footer__inner__one_container">
-                        <div class="section_footer__inner__one_container__logo">
+            <section class="main__thirteen page-footer">
+                <div class="page-footer__inner">
+                    <div class="page-footer__container">
+                        <div class="page-footer__logo">
                             <div
-                                class="section_footer__inner__one_container__logo__img"
+                                class="logo__img logo"
                             >
                                 <img src="img/logo.svg" alt="logo" />
                             </div>
                             <span
-                                class="section_footer__inner__one_container__logo__description"
+                                class="page-footer__description"
                                 >Photographers & videographers capturing the
                                 world around us.</span
                             >
                         </div>
                         <div
-                            class="section_footer__inner__one_container__links"
+                            class="page-footer__links"
                         >
                             <div
-                                class="section_footer__inner__one_container__links__col"
+                                class="page-footer__col links-col"
                             >
                                 <span
-                                    class="section_footer__inner__one_container__links__col__title"
+                                    class="links-col__title"
                                     >Business areas</span
                                 >
                                 <a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Product Photography</a
                                 ><a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Architecture Photography</a
                                 ><a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Drone Photography</a
                                 ><a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Wildlife Photography</a
                                 >
                             </div>
                             <div
-                                class="section_footer__inner__one_container__links__col"
+                                class="page-footer__col links-col"
                             >
                                 <span
-                                    class="section_footer__inner__one_container__links__col__title"
+                                    class="links-col__title"
                                     >Pages</span
                                 >
                                 <a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Gear cage</a
                                 ><a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Featured images</a
                                 ><a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Contact</a
                                 ><a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Style guide</a
                                 ><a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Instructions</a
                                 ><a
                                     href="#"
-                                    class="section_footer__inner__one_container__links__col__link"
+                                    class="links-col__link"
                                     >Changelog</a
                                 >
                             </div>
                         </div>
                     </div>
-                    <div class="section_footer__inner__two_container">
+                    <div class="page-footer__container -two">
                         <div
-                            class="section_footer__inner__two_container__subscribe"
+                            class="page-footer__subscribe"
                         >
                             <span
-                                class="section_footer__inner__two_container__subscribe__title"
+                                class="page-footer__title"
                                 >Subscribe to our newsletter</span
                             >
                             <span
-                                class="section_footer__inner__two_container__subscribe__description"
+                                class="page-footer__subtitle"
                                 >Read about all the things we do.</span
                             >
                         </div>
                         <form
                             action="#"
                             method="post"
-                            class="section_footer__inner__two_container__form"
+                            class="page-footer__form"
                         >
                             <input
                                 type="email"
@@ -739,30 +737,30 @@
                             <button type="submit">Subscribe</button>
                         </form>
                     </div>
-                    <div class="section_footer__inner__three_container">
+                    <div class="page-footer__container -three">
                         <span
-                            class="section_footer__inner__three_container__text"
+                            class="page-footer__copyright"
                             >© Aperture Photography, Inc. All rights reserved.
                             Licensing.</span
                         >
                         <div
-                            class="section_footer__inner__three_container__icons"
+                            class="page-footer__icons"
                         >
                             <a
                                 href="#"
-                                class="section_footer__inner__three_container__icons__items"
+                                class="page-footer__items"
                             >
                                 <img src="img/twitter.svg" alt="twitter" />
                             </a>
                             <a
                                 href="#"
-                                class="section_footer__inner__three_container__icons__items"
+                                class="page-footer__items"
                             >
                                 <img src="img/instagram.svg" alt="instagram" />
                             </a>
                             <a
                                 href="#"
-                                class="section_footer__inner__three_container__icons__items"
+                                class="page-footer__items"
                             >
                                 <img src="img/facebook.svg" alt="facebook" />
                             </a>
