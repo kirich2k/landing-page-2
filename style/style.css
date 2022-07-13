@@ -500,7 +500,7 @@ body {
   height: 100%;
   padding: 0px 30px 30px 0px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-end;
 }
 .long-section__container {
@@ -834,6 +834,9 @@ body {
 @media (max-width: 465px) {
   .page-footer {
     height: 1200px !important;
+  }
+  .long-section__inner {
+    align-items: center;
   }
 }
 @media (max-width: 355px) {
