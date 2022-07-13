@@ -514,7 +514,7 @@ body {
         width: 50%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
     }
     &__title {
         width: 100%;
@@ -856,6 +856,9 @@ body {
 @media (max-width: 465px) {
     .page-footer {
         height: 1200px !important;
+    }
+    .long-section__container {
+        align-items: center;
     }
 }
 
